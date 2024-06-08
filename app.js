@@ -34,7 +34,7 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("/", (req, res) => {
-  res.send("hi, its root");
+  res.send("hi, it root");
 });
 
 const validateListing = (req, res, next) => {
