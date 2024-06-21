@@ -119,3 +119,8 @@ footer {
 .show-card{
   padding-inline: 0 ;
 }
+
+#map{
+  height: 400px;
+  width: 50vw;
+}
